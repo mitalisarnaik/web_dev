@@ -1,0 +1,126 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  background-color: white;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+a {
+  text-decoration: none;
+  color: #3b3b3b;
+  font-size: 20px;
+}
+.phone {
+  background-color: #e6b400;
+  margin-top: 0px;
+  padding: 32px;
+  color: white;
+  margin-top: 40px;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.topportion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  background-image: url(heroimage.png);
+  height: 400px;
+  width: auto;
+}
+.home {
+  background-color: #e6b400;
+  color: white;
+  width: fit-content;
+  font-size: 30px;
+  margin: auto;
+}
+.courses {
+  margin-top: 70px;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+img {
+  width: 300px;
+  height: 250px;
+}
+.item {
+  text-align: center;
+}
+.homeh1 {
+  margin-top: 40px;
+}
+.h2item {
+  margin-top: 50px;
+}
+.description {
+  color: #3b3b3b;
+}
+footer {
+  background-color: #3b3b3b;
+  height: 200px;
+  display: flex;
+  margin-top: 100px;
+}
+.displaytime {
+  color: white;
+  margin-top: 165px;
+  margin-left: 0px;
+}
+@media screen and (max-width: 1034px) {
+  .offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media  screen and (max-width: 430px)   {
+  .a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-image: url(heroimage.png);
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 30px;
+  
+    top: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .home {
+    margin-top: 100px;
+  }
+  .phone {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .topportion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+}
