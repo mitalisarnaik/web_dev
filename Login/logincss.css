@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.forms {
+  background-color: lightgray;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .forms {
+    background-color: lightblue !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .forms {
+    background-color: red !important;
+  }
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+}
+
+/* @media only screen and (max-width: 480px) {
+    h1 {
+        margin-top: 10%; 
+    /* }
+}
+
+@media only screen and(max-width:320px){
+    .forms{
+        background-color: blue;
+        width: 300px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+} */
