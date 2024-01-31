@@ -8,12 +8,11 @@ export default function Login() {
   const [name,Setname]=useState('');
   const[pwd,Setpwd]=useState('');
 
-    const handle = () => {
-     localStorage.setItem('Name', name);
-     localStorage.setItem('Password', pwd);
-  };
+
 
   const HandleClick = (e) => {
+    localStorage.setItem('Name', name);
+    localStorage.setItem('Password', pwd);
     e.preventDefault();
       navigate('/page2');
 
@@ -26,7 +25,7 @@ export default function Login() {
       <br />
       <div>
         <p>
-          <form className="forms">
+          <form className="forms" onSubmit={HandleClick}>
             <div>
               <label>Username: </label>
               <input type="text" id="username" name="Name" value={name} onChange={(e)=>Setname(e.target.value)} required />
@@ -38,24 +37,9 @@ export default function Login() {
             </div>
 
             <div>
-              <button onClick={handle}>Login</button>
+              <button onClick={HandleClick}>Login</button>
             </div>
-            <div>
-              {
-                localStorage.getItem('Name') &&(
-                <div>
-                  <p>Name: {localStorage.getItem('Name')}</p>
-                </div>
-                )
-              }
-               {
-                localStorage.getItem('Password') &&(
-                  <div>
-                    <p>Password: {localStorage.getItem('Password')}</p>
-                  </div>
-                )
-              }
-            </div>
+            
             
              
             
