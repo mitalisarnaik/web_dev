@@ -44,6 +44,22 @@ export default function Homepage(time) {
       <footer>
         <h2 className="displaytime">{time.toLocaleTimeString()}</h2>
         <div className="footercontainer">
+        <div>
+              {
+                localStorage.getItem('Name') &&(
+                <div>
+                  <p style={{color:"white"}}>Name: {localStorage.getItem('Name')}</p>
+                </div>
+                )
+              }
+               {
+                localStorage.getItem('Password') &&(
+                  <div>
+                    <p style={{color:"white"}}>Password: {localStorage.getItem('Password')}</p>
+                  </div>
+                )
+              }
+            </div>
 
         </div>
       </footer>
