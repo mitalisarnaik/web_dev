@@ -1,0 +1,133 @@
+header {
+        display: flex;
+        gap: 30px;
+        top: 0px;
+        background-color: skyblue;
+        padding: 30px;
+        justify-content: center;
+        position: sticky;
+        top: 0px;
+}
+
+a {
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+}
+
+a:hover {
+        color: white;
+}
+
+h1 {
+        width: 100%;
+        text-decoration: underline;
+        text-align: center;
+}
+
+.container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        
+
+}
+
+
+.container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+
+}
+.first{
+        flex-basis: 50%;
+}
+.second{
+        flex-basis: 50%;
+}
+.pri {
+        height: 200px;
+        width: 200px;
+       float: left;
+        margin-left: 100px;
+        
+}
+
+.primary {
+        float: left;
+}
+
+p {
+        font-size: 25px;
+        width: 50%;
+        float: left;
+        margin-block-start: 0px;
+        margin-left: 35px;
+        text-align: left;
+}
+.third{
+        flex-basis: 50%;
+}
+.fourth{flex-basis: 50%;}
+.secondary {
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin-left: 100px;
+}
+
+.junior {
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin-left: 100px;
+}
+
+.senior {
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin-left: 100px;
+}
+
+footer {
+        background-color: skyblue;
+        padding: 30px;
+        display: flex;
+        gap: 30px;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+}
+
+@media screen and (max-width:1400px) {
+
+        .container1 {
+               display: flex;
+               flex-direction: column; 
+               justify-content: center;
+        }
+        .container2 {
+                display: flex;
+                flex-direction: column; 
+                justify-content: center;
+             
+        }
+
+}
+
+@media screen and (max-width:705px){
+      
+     .pri{
+        text-align: left;
+        
+     }
+     .primary{
+        text-align: left;
+        width: 100%;
+     }
+}

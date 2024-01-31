@@ -1,0 +1,103 @@
+header {
+    background-color: skyblue;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+
+
+.auto {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+p {
+    font-size: 25px;
+    width: 50%;
+    float: left;
+    margin-block-start: 0px;
+    margin-left: 35px;
+    text-align: left;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pharm {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+.ph {
+    float: left;
+}
+
+.blockchain {
+    margin-top: 50px;
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+.gdpprediction {
+    margin-top: 50px;
+}
+
+.gdp {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: skyblue;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .container{display: grid;grid-template-columns: 1fr;grid-template-rows: 1fr;align-items: center;margin-top: 30px;}
+  
+}
+
